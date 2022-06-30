@@ -17,11 +17,8 @@ const Home: NextPage = () => {
 
       <main className="grid grid-cols-2 gap-x-4 mx-auto max-w-3xl mb-4">
         <Items />
-        <Buckets />
+        {/* <Buckets /> */}
       </main>
-      <p className="mx-auto text-center">
-        Dragging {draggedItem?.id} to {receivingBucket?.id}
-      </p>
     </div>
   );
 };
